@@ -2,7 +2,6 @@ import React from 'react'
 
 export const PokemonCard = ({id, name, img, sprites = [] }) => {
 
-    console.log(JSON.stringify(sprites))
 
   return (
    <section style={{ height:200 }}>
